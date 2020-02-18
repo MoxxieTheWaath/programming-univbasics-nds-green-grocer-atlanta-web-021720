@@ -25,7 +25,7 @@ def consolidate_cart(cart)
     else
       bop[index][:count] += 1
     end
-   print "#{bop[index][:item]
+   print "#{bop[index][:item]} \n"
     index += 1
   end
   
