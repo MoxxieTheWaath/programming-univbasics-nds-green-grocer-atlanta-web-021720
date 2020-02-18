@@ -18,6 +18,7 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   i = 0
   bop = []
+  print cart
 end
 
 def apply_coupons(cart, coupons)
