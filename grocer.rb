@@ -19,7 +19,6 @@ def consolidate_cart(cart)
   index = 0
   bop = []
   while index < cart.length do
-    print "#{cart[index]} \n"
     if bop[index] != cart[index]
       bop[index] = cart[index]
       bop[index][:count] = 1
