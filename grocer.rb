@@ -20,6 +20,8 @@ def consolidate_cart(cart)
   bop = {}
   while i < cart.length do
     bop[index][:item] = []
+    i += 1
+  end
 end
 
 def apply_coupons(cart, coupons)
