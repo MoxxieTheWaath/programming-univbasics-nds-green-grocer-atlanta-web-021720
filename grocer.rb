@@ -21,13 +21,14 @@ def consolidate_cart(cart)
   while index < cart.length do
     print "#{cart[index]} \n"
     if bop[index] != cart[index]
-      print "test"
+      bop[index] = cart[index]
+      bop[index][:count] = 1
     else
       print "bang"
     end
     index += 1
   end
-  print index
+  print bop
 end
 
 def apply_coupons(cart, coupons)
