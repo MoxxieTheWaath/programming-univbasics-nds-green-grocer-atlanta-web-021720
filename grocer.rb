@@ -17,10 +17,8 @@ def consolidate_cart(cart)
   # REMEMBER: This returns a new Array that represents the cart. Don't merely
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   i = 0
-  
-  cart[0][:count] = 2
-  cart[0][:count] += 1
-  print cart[0]
+  bop = []
+  print bop[0][:item]
 end
 
 def apply_coupons(cart, coupons)
