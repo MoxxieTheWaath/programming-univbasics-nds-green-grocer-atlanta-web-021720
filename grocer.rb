@@ -19,7 +19,7 @@ def consolidate_cart(cart)
   i = 0
   bop = [{}]
   while i < cart.length do
-    bop[index][:item] = "mehp"
+    bop[i][:item] = "mehp"
     i += 1
   end
 end
