@@ -20,6 +20,11 @@ def consolidate_cart(cart)
   bop = []
   while index < cart.length do
     print "#{cart[index]} \n"
+    if bop[index] != cart[index]
+      print "test"
+    else
+      print "bang"
+    end
     index += 1
   end
   print index
