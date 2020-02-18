@@ -27,7 +27,7 @@ def consolidate_cart(cart)
     end
     index += 1
   end
-  print bop
+  print "#{bop} \n"
 end
 
 def apply_coupons(cart, coupons)
