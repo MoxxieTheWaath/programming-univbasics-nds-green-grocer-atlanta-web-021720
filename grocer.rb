@@ -19,7 +19,7 @@ def consolidate_cart(cart)
   i = 0
   
   cart[0][:count] = 2
-  print cart
+  print cart[0]
 end
 
 def apply_coupons(cart, coupons)
