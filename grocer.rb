@@ -22,6 +22,7 @@ def consolidate_cart(cart)
   while index < cart.length do
     index += 1
   end
+  print index
 end
 
 def apply_coupons(cart, coupons)
