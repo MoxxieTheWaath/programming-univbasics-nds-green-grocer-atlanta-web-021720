@@ -25,8 +25,10 @@ def consolidate_cart(cart)
     else
       bop[index][:count] += 1
     end
+    print "#{bop[index]} \n"
     index += 1
   end
+  
 end
 
 def apply_coupons(cart, coupons)
